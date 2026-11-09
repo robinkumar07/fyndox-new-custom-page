@@ -1,0 +1,1845 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+
+a {
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --gray-color: #51657a;
+    --green-color: #0e7c7b;
+    --blue-color: #0b1f33;
+    --white-color: #ffffff;
+    --text-color: #51657a;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1216px;
+}
+
+.btn-primary {
+    background: var(--green-color);
+    border-radius: 9999px;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: var(--white-color);
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.btn-secondary {
+    background: var(--white-color);
+    border-radius: 9999px;
+    border-style: solid;
+    border-color: #d5e1e5;
+    border-width: 1px;
+    padding: 12px 24px 12px 24px;
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.btn-primary {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: color-mix(in srgb, var(--green-color) 85%, black);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+.btn-secondary {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    border-color: var(--blue-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.grid {
+    display: grid;
+}
+
+.grid-col {
+    grid-template-columns: 1fr;
+}
+
+.grid-col2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-col3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-col4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gap {
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*header css*/
+.navbar-sec .logo img {
+    width: 132px;
+}
+
+.navbar-sec .grid.grid-col3 {
+    grid-template-columns: 164px 3fr 1fr;
+    align-items: center;
+}
+
+.navbar-sec {
+    background: rgba(255, 255, 255, 0.95);
+    border-style: solid;
+    border-color: #eaf0f2;
+    border-width: 0px 0px 1px 0px;
+    padding: 12px 0;
+    position: relative;
+}
+
+/* Navigation */
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-sec .nav-menu li a {
+    color: #51657a;
+    text-align: left;
+    font-size: 13.5px;
+    line-height: 20.25px;
+    font-weight: 500;
+     transition: color 0.3s ease;
+}
+
+
+.navbar-sec .nav-menu li a:hover {
+    color: #0e7c7b !important;
+}
+
+/* Right Actions */
+.navbar-sec .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: end;
+}
+
+/* Language Selector */
+.navbar-sec .language-selector {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background: #f1f5f7;
+    border-radius: 9999px;
+    padding: 4px;
+}
+
+.navbar-sec .language-selector a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #51657a;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16.5px;
+    font-weight: 600;
+    padding: 4px 10px;
+}
+.navbar-sec .language-selector a {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-sec .language-selector a:hover {
+    background-color: #e8edf2;
+}
+
+
+.navbar-sec .language-selector a.active {
+    color: #ffffff;
+    background: #0b1f33;
+    border-radius: 9999px;
+}
+
+/* CTA Button */
+.book-btn {
+    text-decoration: none;
+    transition: background 0.3s ease;
+    background: #0e7c7b;
+    border-radius: 9999px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.book-btn:hover {
+    background: #066e6b;
+}
+
+/* Mobile Menu Button */
+.navbar-sec .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.navbar-sec .menu-toggle span {
+    display: block;
+    width: 23px;
+    height: 2px;
+    background: #102338;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/*header css end*/
+
+
+/*banner css start*/
+.healthcare-banner .play-icon {
+    background: #f0faf8;
+    border-radius: 9999px;
+    padding: 0px 5.25px 0px 7.25px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+}
+
+.healthcare-banner {
+    width: 100%;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(245, 250, 250, 1) 100%);
+    padding: 96px 0;
+}
+
+.banner-container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+}
+
+/* Left Content */
+
+.banner-content h1 {
+    text-align: left;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    font-weight: 400;
+    color: var(--blue-color);
+    padding-bottom: 24px;
+}
+
+.banner-content h1 span {
+    color: var(--green-color);
+    font-style: italic;
+}
+
+.banner-content p {
+    color: var(--text-color);
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 500px;
+    padding-bottom: 28px;
+}
+
+/* Feature Items */
+
+.features {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #e9f3f4;
+    border-radius: 9999px;
+    padding: 5.5px 14px 6.5px 14px;
+    color: var(--green-color);
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+
+/* Buttons */
+
+.banner-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+
+
+
+/* Right Image */
+
+.banner-visual {
+    position: relative;
+    width: 100%;
+}
+
+.image-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #e2ecee;
+    border-width: 1px;
+    padding: 24px;
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.image-card img {
+    display: block;
+    width: 100%;
+    height: 338px;
+    object-fit: cover;
+    border-radius: 13px;
+    border: 1px solid #536778;
+}
+
+/* Translation Badge */
+.translation-badge {
+    position: absolute;
+    top: -14px;
+    right: 25px;
+    z-index: 2;
+    border: 1px solid #e4eeee;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 9999px;
+    border-style: solid;
+    border-color: #deeceb;
+    border-width: 1px;
+    padding: 6px 14px 6px 14px;
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background: #10B981;
+    border-radius: 50%;
+}
+.translation-badge span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Video Controls */
+
+.video-controls {
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #34495b;
+    padding: 9px 14px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.mute-icon {
+    background: #ed252d;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/* Language Box */
+
+.language-box {
+    position: absolute;
+    right: -5px;
+    bottom: -10px;
+    background: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    z-index: 2;
+    min-width: 100px;
+}
+
+.language-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #263a4d;
+    padding: 3px 2px;
+}
+
+.language-item span {
+    background: #f0f4f5;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.language-item.active span {
+    background: #e1f3f2;
+    color: #078783;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Fyndox Section */
+
+.fyndox-about-section {
+    width: 100%;
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.fyndox-about-section .fyndox-about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.72fr) minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+}
+
+/* About Content */
+
+.fyndox-about-content {
+    min-width: 0;
+    padding-right: 4px;
+}
+
+.fyndox-about-label {
+    display: block;
+    margin-bottom: 16px;
+    color: #8a99a8;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.fyndox-about-content h2 {
+    margin: 0 0 22px;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: -0.8px;
+}
+
+.fyndox-about-content h2 span {
+    display: block;
+    font-style: italic;
+}
+
+.fyndox-about-content p {
+    margin: 0;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* The Reality */
+
+.fyndox-reality {
+    min-width: 0;
+    padding-left: 32px;
+    border-left: 1px solid #edf1f4;
+}
+
+.fyndox-reality h3,
+.fyndox-answer h3 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.fyndox-reality h3 {
+    margin-bottom: 22px;
+    color: #0b1f33;
+}
+
+.fyndox-reality-item {
+    display: grid;
+    grid-template-columns: 34px minmax(0, 1fr);
+    align-items: start;
+    gap: 5px;
+    margin-bottom: 22px;
+}
+
+.fyndox-reality-item:last-child {
+    margin-bottom: 0;
+}
+
+.fyndox-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #f5f7fa;
+    color: #647990;
+}
+
+.fyndox-icon svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+
+.fyndox-reality-item p {
+    margin: 1px 0 0;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.fyndox-reality-item.fyndox-reality-warning {
+    align-items: center;
+    margin-top: 2px;
+}
+
+.fyndox-reality-warning .fyndox-icon {
+    background: #fff0f2;
+    color: #ff4568;
+}
+
+.fyndox-reality-warning .fyndox-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+.fyndox-reality-warning p {
+    color: #0b1f33;
+}
+
+/* Our Answer Card */
+
+.fyndox-answer {
+    min-width: 0;
+    padding: 32px;
+    background: #f3faf9;
+    border: 1px solid #c8eeea;
+    border-radius: 17px;
+}
+
+.fyndox-answer h3 {
+    margin-bottom: 22px;
+    color: #075b58;
+}
+
+.fyndox-answer-item {
+    display: grid;
+    grid-template-columns: 34px minmax(0, 1fr);
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
+}
+
+.fyndox-answer-item:last-child {
+    margin-bottom: 0;
+}
+
+.fyndox-answer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #0e8c88;
+    box-shadow: 0 1px 2px rgba(11, 31, 51, 0.06);
+}
+
+.fyndox-answer-icon svg {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+
+.fyndox-answer-item p {
+    margin: 0;
+    color: #0b1f33;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+
+
+
+
+
+/* Fyndox Audience Section */
+
+.fyndox-audience-section {
+    width: 100%;
+    padding: 78px 0 82px;
+    background: #f6f9fa;
+}
+
+.fyndox-audience-header {
+    margin-bottom: 42px;
+}
+
+.fyndox-audience-header h2 {
+    margin: 0;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.6px;
+}
+
+.fyndox-audience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    align-items: stretch;
+}
+
+.fyndox-audience-card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-width: 0;
+    padding: 28px;
+    background: #ffffff;
+    border: 1px solid #e0e9ed;
+    border-radius: 17px;
+    box-shadow: 0 2px 2px rgba(11, 31, 51, 0.025);
+    transition: border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.fyndox-audience-card:hover {
+    border-color: #c9e2e3;
+    box-shadow: 0 8px 24px rgba(11, 31, 51, 0.045);
+}
+
+.fyndox-audience-image {
+    flex: 0 0 144px;
+    width: 144px;
+    height: 144px;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.fyndox-audience-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.fyndox-audience-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+}
+
+.fyndox-audience-content h3 {
+    margin: 0 0 12px;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.fyndox-audience-content p {
+    margin: 0 0 20px;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.fyndox-audience-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 36px;
+    width: 36px;
+    height: 36px;
+    margin-top: auto;
+    border-radius: 50%;
+    background: #0e8582;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background 0.25s ease,
+        transform 0.25s ease;
+}
+
+.fyndox-audience-arrow svg {
+    display: block;
+    width: 17px;
+    height: 17px;
+}
+
+.fyndox-audience-arrow:hover {
+    background: #086b69;
+    transform: translateX(3px);
+}
+
+/* Doctors Card Arrow Color */
+
+.fyndox-audience-card:nth-child(2) .fyndox-audience-arrow {
+    background: #b4e9e3;
+    color: #075b58;
+}
+
+.fyndox-audience-card:nth-child(2) .fyndox-audience-arrow:hover {
+    background: #8bd8d0;
+}
+
+
+
+
+
+
+
+
+
+
+/* Fyndox Problem & Solution Section */
+
+.fyndox-problem-solution {
+    width: 100%;
+    padding: 75px 0 80px;
+    background: #ffffff;
+}
+
+.fyndox-ps-header {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 44px;
+}
+
+.fyndox-ps-header h2 {
+    margin: 0;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.5px;
+}
+
+.fyndox-ps-header>p {
+    max-width: 450px;
+    justify-self: end;
+    margin: 0;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.fyndox-ps-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    align-items: stretch;
+}
+
+.fyndox-ps-card {
+    min-width: 0;
+    padding: 36px;
+    border: 1px solid;
+    border-radius: 17px;
+}
+
+.fyndox-ps-problem {
+    background: #fff8f7;
+    border-color: #ffe0df;
+}
+
+.fyndox-ps-solution {
+    background: #f0faf8;
+    border-color: #a8e9e2;
+}
+
+/* Card Heading */
+
+.fyndox-ps-card-heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 29px;
+}
+
+.fyndox-ps-heading-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.fyndox-ps-heading-icon svg {
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+
+.fyndox-ps-problem .fyndox-ps-heading-icon {
+    background: #ffe2e7;
+    color: #ed3154;
+}
+
+.fyndox-ps-solution .fyndox-ps-heading-icon {
+    background: #0e8582;
+    color: #ffffff;
+}
+
+.fyndox-ps-card-heading h3 {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.fyndox-ps-problem .fyndox-ps-card-heading h3 {
+    color: #cf1539;
+}
+
+.fyndox-ps-solution .fyndox-ps-card-heading h3 {
+    color: #076b68;
+}
+
+/* List Items */
+
+.fyndox-ps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.fyndox-ps-item {
+    display: grid;
+    grid-template-columns: 18px minmax(0, 1fr);
+    align-items: start;
+    gap: 13px;
+    min-width: 0;
+}
+
+.fyndox-ps-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 19px;
+    margin-top: 1px;
+}
+
+.fyndox-ps-item-icon svg {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.fyndox-ps-problem .fyndox-ps-item-icon {
+    color: #8da2bd;
+}
+
+.fyndox-ps-solution .fyndox-ps-item-icon {
+    color: #0b8985;
+}
+
+.fyndox-ps-item-content {
+    min-width: 0;
+}
+
+.fyndox-ps-item-content h4 {
+    margin: 0 0 3px;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.fyndox-ps-item-content p {
+    margin: 0;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+/* Fyndox Brand Statement Banner */
+
+.fyndox-brand-banner {
+    width: 100%;
+    overflow: hidden;
+    background: #0b1f33;
+    padding: 70px 0;
+}
+
+.fyndox-brand-banner .container {
+    max-width: 1256px;
+}
+
+.fyndox-brand-banner__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(150px, 1fr) 186px;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.fyndox-brand-banner__heading {
+    min-width: 0;
+}
+
+.fyndox-brand-banner__heading h2 {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -1.3px;
+}
+
+.fyndox-brand-banner__heading h2 span {
+    display: block;
+    color: #83ded5;
+    font-style: italic;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.fyndox-brand-banner__decoration {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    min-width: 0;
+}
+
+.fyndox-brand-banner__oval {
+    display: block;
+    flex: 0 0 108px;
+    width: 108px;
+    height: 22px;
+    border-radius: 50%;
+    background: #193447;
+}
+
+.fyndox-brand-banner__line {
+    display: block;
+    flex: 0 0 64px;
+    width: 64px;
+    height: 2px;
+    background: #294457;
+}
+
+.fyndox-brand-banner__statement {
+    display: flex;
+    align-items: center;
+    min-height: 72px;
+    padding-left: 32px;
+    border-left: 1px solid #34485a;
+}
+
+.fyndox-brand-banner__statement p {
+    margin: 0;
+    color: #b9c6d3;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* Fyndox Founder Section */
+
+.fyndox-founder {
+    width: 100%;
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.fyndox-founder .container {
+    max-width: 1256px;
+}
+
+.fyndox-founder__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.12fr);
+    align-items: center;
+    gap: 56px;
+}
+
+/* Founder Image */
+
+.fyndox-founder__visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 8px;
+    background: #eaf0f2;
+    border-radius: 16px;
+    box-shadow: 0 8px 14px rgba(11, 31, 51, 0.12);
+}
+
+.fyndox-founder__image-wrap {
+    width: 100%;
+    max-width: 345px;
+    height: 460px;
+    overflow: hidden;
+    background: #e3e9eb;
+}
+
+.fyndox-founder__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* Founder Content */
+
+.fyndox-founder__content {
+    min-width: 0;
+}
+
+.fyndox-founder__eyebrow {
+    display: block;
+    margin-bottom: 17px;
+    color: #8498ae;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.fyndox-founder__content h2 {
+    margin: 0 0 22px;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.7px;
+}
+
+.fyndox-founder__identity {
+    margin-bottom: 20px;
+}
+
+.fyndox-founder__identity h3 {
+    margin: 0 0 3px;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.fyndox-founder__identity p {
+    margin: 0;
+    color: #8498ae;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.fyndox-founder__description {
+    max-width: 680px;
+    margin: 0 0 30px;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+/* LinkedIn Button */
+
+.fyndox-founder__linkedin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 40px;
+    padding: 9px 17px;
+    border: 1px solid #a4d4d4;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #006e70;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+    box-shadow: 0 2px 3px rgba(11, 31, 51, 0.04);
+    transition: background 0.25s ease, color 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.fyndox-founder__linkedin:hover {
+    background: #0e7c7b;
+    border-color: #0e7c7b;
+    color: #ffffff;
+}
+
+.fyndox-founder__linkedin-icon {
+    display: block;
+    flex: 0 0 14px;
+    width: 14px;
+    height: 14px;
+}
+
+.fyndox-founder__arrow {
+    display: block;
+    flex: 0 0 14px;
+    width: 14px;
+    height: 14px;
+    margin-left: 3px;
+}
+
+
+/* Fyndox Contact Section */
+
+.fyndox-contact {
+    width: 100%;
+    padding: 80px 0;
+    background: #eff9f7;
+}
+
+.fyndox-contact .container {
+    max-width: 1256px;
+}
+
+.fyndox-contact__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+    align-items: center;
+    gap: 65px;
+}
+
+/* Left Content */
+
+.fyndox-contact__intro {
+    min-width: 0;
+}
+
+.fyndox-contact__eyebrow {
+    display: block;
+    margin-bottom: 22px;
+    color: #8498ae;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.fyndox-contact__intro h2 {
+    margin: 0 0 20px;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 0.99;
+    letter-spacing: -1.5px;
+}
+
+.fyndox-contact__description {
+    max-width: 420px;
+    margin: 0 0 34px;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Audience List */
+
+.fyndox-contact__audiences {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fyndox-contact__audience {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #344c61;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.fyndox-contact__audience svg {
+    display: block;
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+    fill: #0e8582;
+    stroke: #0e8582;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Contact Card */
+
+.fyndox-contact__card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+    gap: 32px;
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #dcebea;
+    border-radius: 24px;
+    box-shadow: 0 18px 24px rgba(11, 31, 51, 0.11);
+    min-width: 0;
+}
+
+/* Booking Column */
+
+.fyndox-contact__booking {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+    padding-right: 22px;
+    border-right: 1px solid #edf1f3;
+}
+
+.fyndox-contact__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background: #eff9f7;
+    color: #0e8582;
+}
+
+.fyndox-contact__icon svg {
+    width: 17px;
+    height: 17px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.fyndox-contact__booking h3,
+.fyndox-contact__form-column > h3 {
+    margin: 0;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.fyndox-contact__booking > p {
+    margin: 12px 0 25px;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.fyndox-contact__booking .fyndox-contact__button {
+    margin-top: auto;
+}
+
+/* Form Column */
+
+.fyndox-contact__form-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.fyndox-contact__form-column > h3 {
+    margin-bottom: 14px;
+}
+
+.fyndox-contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.fyndox-contact__field {
+    width: 100%;
+    min-width: 0;
+}
+
+.fyndox-contact__field input,
+.fyndox-contact__field select {
+    display: block;
+    width: 100%;
+    height: 39px;
+    padding: 0 14px;
+    border: 1px solid #dce8ec;
+    border-radius: 13px;
+    outline: none;
+    background-color: #f9fbfc;
+    color: #344c61;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fyndox-contact__field input::placeholder {
+    color: #91a3b8;
+    opacity: 1;
+}
+
+.fyndox-contact__field select {
+    color: #71849a;
+    cursor: pointer;
+}
+
+.fyndox-contact__field input:focus,
+.fyndox-contact__field select:focus {
+    border-color: #0e8582;
+    box-shadow: 0 0 0 3px rgba(14, 133, 130, 0.1);
+}
+
+/* Buttons */
+
+.fyndox-contact__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 37px;
+    padding: 10px 16px;
+    border: 1px solid #0e8582;
+    border-radius: 999px;
+    background: #0e8582;
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.fyndox-contact__button:hover {
+    background: #086e6c;
+    border-color: #086e6c;
+}
+
+.fyndox-contact__button svg {
+    display: block;
+    flex: 0 0 13px;
+    width: 13px;
+    height: 13px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.fyndox-contact__response {
+    margin: 16px 0 0;
+    color: #91a3b8;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.fyndox-contact__sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+
+/* Fyndox Co-Founder Section */
+
+.fyndox-cofounder {
+    width: 100%;
+    padding: 78px 0 80px;
+    background: #ffffff;
+}
+
+.fyndox-cofounder .container {
+    max-width: 1256px;
+}
+
+/* Section Header */
+
+.fyndox-cofounder__header {
+    max-width: 680px;
+    margin-bottom: 38px;
+}
+
+.fyndox-cofounder__eyebrow {
+    display: block;
+    margin-bottom: 14px;
+    color: #8498ae;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.fyndox-cofounder__header h2 {
+    margin: 0 0 12px;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.7px;
+}
+
+.fyndox-cofounder__header > p {
+    margin: 0;
+    color: #51657a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+/* Information Card */
+
+.fyndox-cofounder__card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: stretch;
+    gap: 40px;
+    width: 100%;
+    padding: 40px;
+    background: #f7fafb;
+    border: 1px solid #dfe9ed;
+    border-radius: 17px;
+}
+
+/* Card Columns */
+
+.fyndox-cofounder__column {
+    min-width: 0;
+}
+
+.fyndox-cofounder__column + .fyndox-cofounder__column {
+    padding-left: 40px;
+    border-left: 1px solid #e1e9ed;
+}
+
+/* Column Headings */
+
+.fyndox-cofounder__column-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.fyndox-cofounder__column-heading svg {
+    display: block;
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    color: #0e8582;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 1.4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.fyndox-cofounder__column:nth-child(2)
+.fyndox-cofounder__column-heading svg {
+    fill: none;
+    stroke-width: 1.8;
+}
+
+.fyndox-cofounder__column-heading h3 {
+    margin: 0;
+    color: #0b1f33;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Checklist */
+
+.fyndox-cofounder__list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fyndox-cofounder__list li {
+    position: relative;
+    margin: 0;
+    padding-left: 20px;
+    color: #40566b;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    list-style: none;
+}
+
+.fyndox-cofounder__list li::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    width: 8px;
+    height: 5px;
+    border-left: 1.5px solid #0e8582;
+    border-bottom: 1.5px solid #0e8582;
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+/* ==============================
+   Fyndox Footer
+================================ */
+
+.fyndox-footer {
+    width: 100%;
+    background: #0b1f33;
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.fyndox-footer .container {
+    max-width: 1256px;
+    padding: 0 8px;
+}
+
+/* Footer Top */
+
+.fyndox-footer__top {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr) 120px;
+    align-items: center;
+    gap: 24px;
+    min-height: 169px;
+    padding: 30px 0;
+}
+
+/* Brand */
+
+.fyndox-footer__brand {
+    min-width: 0;
+}
+
+.fyndox-footer__logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+.fyndox-footer__logo span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-top: 2px;
+    background: #83ddd5;
+    border-radius: 50%;
+}
+
+.fyndox-footer__brand p {
+    margin: 8px 0 0;
+    color: #92a2b5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Navigation */
+
+.fyndox-footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    min-width: 0;
+}
+
+.fyndox-footer__nav a,
+.fyndox-footer__legal a {
+    color: #c2ccd7;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.fyndox-footer__nav a:hover,
+.fyndox-footer__legal a:hover {
+    color: #83ddd5;
+}
+
+/* Language Selector */
+
+.fyndox-footer__languages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 4px;
+    background: #122a41;
+    border: 1px solid #203b53;
+    border-radius: 999px;
+}
+
+.fyndox-footer__languages a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 35px;
+    min-height: 25px;
+    padding: 5px 8px;
+    color: #c2ccd7;
+    background: transparent;
+    border-radius: 999px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+    text-decoration: none;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+.fyndox-footer__languages a.active {
+    color: #0b1f33;
+    background: #83ddd5;
+}
+
+.fyndox-footer__languages a:not(.active):hover {
+    color: #ffffff;
+    background: #203b53;
+}
+
+/* Footer Bottom */
+
+.fyndox-footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    min-height: 98px;
+    padding: 25px 0;
+    border-top: 1px solid #20364b;
+}
+
+.fyndox-footer__copyright {
+    margin: 0;
+    color: #92a2b5;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.fyndox-footer__legal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.fyndox-footer__legal a {
+    color: #92a2b5;
+    font-size: 11px;
+}

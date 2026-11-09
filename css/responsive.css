@@ -1,0 +1,2633 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-sec .grid.grid-col3 {
+        grid-template-columns: 140px minmax(0, 1fr) auto;
+        gap: 12px;
+    }
+
+    .navbar-sec .logo img {
+        width: 120px;
+    }
+
+    .nav-menu ul {
+        gap: 14px;
+    }
+
+    .navbar-sec .nav-menu li a {
+        font-size: 12px;
+    }
+
+    .navbar-sec .header-actions {
+        gap: 10px;
+    }
+
+    .book-btn {
+        padding: 10px 15px;
+        white-space: nowrap;
+    }
+
+    .healthcare-banner {
+        padding: 75px 0;
+    }
+
+    .healthcare-banner .grid-col2 {
+        gap: 30px;
+        align-items: center;
+    }
+
+    .banner-content h1 {
+        font-size: 52px;
+        line-height: 1.08;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .image-card {
+        padding: 18px;
+    }
+
+    .image-card img {
+        height: 300px;
+    }
+
+    .features {
+        gap: 8px;
+    }
+
+    .feature-item {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+}
+@media (max-width: 1200px) {
+    .fyndox-about-section {
+        padding: 65px 0;
+    }
+
+    .fyndox-about-section .fyndox-about-grid {
+        grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr) minmax(0, 1fr);
+        gap: 24px;
+    }
+
+    .fyndox-about-content h2 {
+        font-size: 30px;
+        letter-spacing: -0.6px;
+    }
+
+    .fyndox-about-content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .fyndox-reality {
+        padding-left: 22px;
+    }
+
+    .fyndox-reality-item {
+        grid-template-columns: 30px minmax(0, 1fr);
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .fyndox-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fyndox-reality-item p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .fyndox-answer {
+        padding: 25px 22px;
+    }
+
+    .fyndox-answer-item {
+        grid-template-columns: 32px minmax(0, 1fr);
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .fyndox-answer-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fyndox-answer-item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .fyndox-audience-section {
+        padding: 65px 0 70px;
+    }
+
+    .fyndox-audience-header {
+        margin-bottom: 35px;
+    }
+
+    .fyndox-audience-header h2 {
+        font-size: 33px;
+    }
+
+    .fyndox-audience-grid {
+        gap: 24px;
+    }
+
+    .fyndox-audience-card {
+        gap: 18px;
+        padding: 22px;
+    }
+
+    .fyndox-audience-image {
+        flex-basis: 125px;
+        width: 125px;
+        height: 144px;
+    }
+
+    .fyndox-audience-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .fyndox-audience-content p {
+        font-size: 11px;
+        line-height: 19px;
+        margin-bottom: 16px;
+    }
+    .fyndox-problem-solution {
+        padding: 65px 0 70px;
+    }
+
+    .fyndox-ps-header {
+        gap: 30px;
+        margin-bottom: 36px;
+    }
+
+    .fyndox-ps-header h2 {
+        font-size: 33px;
+    }
+
+    .fyndox-ps-grid {
+        gap: 24px;
+    }
+
+    .fyndox-ps-card {
+        padding: 28px;
+    }
+
+    .fyndox-ps-card-heading {
+        margin-bottom: 25px;
+    }
+
+    .fyndox-ps-list {
+        gap: 22px;
+    }
+    .fyndox-brand-banner {
+        padding: 60px 0;
+    }
+
+    .fyndox-brand-banner__inner {
+        grid-template-columns: minmax(0, 1.4fr) minmax(140px, 1fr) 160px;
+        gap: 22px;
+    }
+
+    .fyndox-brand-banner__heading h2 {
+        font-size: 42px;
+        letter-spacing: -1px;
+    }
+
+    .fyndox-brand-banner__decoration {
+        gap: 22px;
+    }
+
+    .fyndox-brand-banner__oval {
+        flex-basis: 85px;
+        width: 85px;
+        height: 19px;
+    }
+
+    .fyndox-brand-banner__line {
+        flex-basis: 45px;
+        width: 45px;
+    }
+
+    .fyndox-brand-banner__statement {
+        padding-left: 24px;
+    }
+    .fyndox-founder {
+        padding: 65px 0;
+    }
+
+    .fyndox-founder__grid {
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.1fr);
+        gap: 40px;
+    }
+
+    .fyndox-founder__image-wrap {
+        max-width: 320px;
+        height: 420px;
+    }
+
+    .fyndox-founder__content h2 {
+        font-size: 32px;
+    }
+
+    .fyndox-founder__description {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .fyndox-contact {
+        padding: 65px 0;
+    }
+
+    .fyndox-contact__layout {
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+        gap: 35px;
+    }
+
+    .fyndox-contact__intro h2 {
+        font-size: 43px;
+    }
+
+    .fyndox-contact__description {
+        font-size: 12px;
+    }
+
+    .fyndox-contact__card {
+        gap: 22px;
+        padding: 26px;
+        border-radius: 22px;
+    }
+
+    .fyndox-contact__booking {
+        padding-right: 18px;
+    }
+
+    .fyndox-cofounder {
+        padding: 65px 0;
+    }
+
+    .fyndox-cofounder__header {
+        max-width: 650px;
+        margin-bottom: 32px;
+    }
+
+    .fyndox-cofounder__header h2 {
+        font-size: 34px;
+    }
+
+    .fyndox-cofounder__card {
+        gap: 30px;
+        padding: 32px;
+    }
+
+    .fyndox-cofounder__column + .fyndox-cofounder__column {
+        padding-left: 30px;
+    }
+
+    .fyndox-footer .container {
+        padding: 0 24px;
+    }
+
+    .fyndox-footer__top {
+        grid-template-columns: 190px minmax(0, 1fr) 112px;
+        gap: 18px;
+    }
+
+    .fyndox-footer__nav {
+        gap: 12px 17px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .navbar-sec {
+        padding: 12px 0;
+        z-index: 1000;
+    }
+
+    .navbar-sec .grid.grid-col3 {
+        grid-template-columns: 1fr auto;
+        gap: 15px;
+    }
+
+    .navbar-sec .logo img {
+        width: 125px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar-sec .header-actions {
+        gap: 14px;
+        justify-content: flex-end;
+    }
+
+    .navbar-sec .language-selector {
+        display: none;
+    }
+
+    .navbar-sec .menu-toggle {
+        display: block;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 1002;
+    }
+
+    .navbar-sec .nav-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: min(400px, 85vw);
+        max-width: 100%;
+        height: 100vh;
+        height: 100dvh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background: #ffffff;
+        padding: 100px 28px 35px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0;
+        border-top: 0;
+        box-shadow: 8px 0 30px rgba(11, 31, 51, 0.12);
+        transform: translateX(-105%);
+        visibility: hidden;
+        pointer-events: none;
+        transition: transform 0.35s ease, visibility 0.35s ease;
+        z-index: 1001;
+    }
+
+    .navbar-sec .nav-menu.show {
+        display: flex;
+        transform: translateX(0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .navbar-sec .nav-menu ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .navbar-sec .nav-menu ul li {
+        width: 100%;
+        border-bottom: 1px solid #eaf0f2;
+    }
+
+    .navbar-sec .nav-menu li a {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 15px;
+        line-height: 1.5;
+        color: #0b1f33;
+    }
+
+    .navbar-sec .nav-menu li a:hover {
+        color: #0e7c7b;
+    }
+
+    .navbar-sec .book-btn {
+        padding: 10px 16px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .healthcare-banner {
+        padding: 65px 0;
+    }
+
+    .healthcare-banner .grid-col2 {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        align-items: center;
+        gap: 28px;
+    }
+
+    .banner-content {
+        min-width: 0;
+    }
+
+    .banner-content h1 {
+        font-size: clamp(34px, 4.5vw, 44px);
+        line-height: 1.12;
+        letter-spacing: -1px;
+        padding-bottom: 20px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 22px;
+    }
+
+    .features {
+        gap: 8px;
+        margin-bottom: 22px;
+    }
+
+    .feature-item {
+        font-size: 11px;
+        line-height: 16px;
+        padding: 6px 10px;
+        gap: 7px;
+    }
+
+    .feature-item img {
+        max-width: 16px;
+        height: auto;
+    }
+
+    .banner-buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 11px 17px;
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .banner-visual {
+        min-width: 0;
+    }
+
+    .image-card {
+        padding: 16px;
+        border-radius: 20px;
+    }
+
+    .image-card img {
+        height: clamp(220px, 29vw, 290px);
+        object-fit: cover;
+    }
+
+    .translation-badge {
+        right: 15px;
+        top: -13px;
+        gap: 6px;
+        padding: 7px 10px;
+        font-size: 11px;
+        line-height: 15px;
+        max-width: calc(100% - 20px);
+    }
+
+    .language-box {
+        right: -5px;
+        bottom: -15px;
+        padding: 10px;
+    }
+
+    .video-controls {
+        bottom: 20px;
+        gap: 12px;
+        padding: 8px 12px;
+    }
+    .fyndox-about-section {
+        padding: 55px 0;
+    }
+
+    .fyndox-about-section .fyndox-about-grid {
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+        gap: 35px 28px;
+        align-items: start;
+    }
+
+    .fyndox-about-content {
+        padding-right: 0;
+    }
+
+    .fyndox-about-content h2 {
+        font-size: clamp(28px, 3.8vw, 36px);
+        line-height: 1.2;
+    }
+
+    .fyndox-about-content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .fyndox-reality {
+        padding-left: 24px;
+    }
+
+    .fyndox-reality h3,
+    .fyndox-answer h3 {
+        font-size: 16px;
+    }
+
+    .fyndox-reality-item {
+        grid-template-columns: 32px minmax(0, 1fr);
+        gap: 11px;
+        margin-bottom: 18px;
+    }
+
+    .fyndox-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fyndox-reality-item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .fyndox-answer {
+        grid-column: 1 / -1;
+        padding: 26px 28px;
+        border-radius: 16px;
+    }
+
+    .fyndox-answer h3 {
+        margin-bottom: 20px;
+    }
+
+    .fyndox-answer-item {
+        grid-template-columns: 34px minmax(0, 1fr);
+        gap: 12px;
+        margin-bottom: 0;
+    }
+
+    .fyndox-answer-icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .fyndox-answer-item p {
+        font-size: 13px;
+    }
+
+    .fyndox-answer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .fyndox-answer h3 {
+        margin-bottom: 0;
+    }
+    .fyndox-audience-section {
+        padding: 55px 0 60px;
+    }
+
+    .fyndox-audience-header {
+        margin-bottom: 30px;
+    }
+
+    .fyndox-audience-header h2 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .fyndox-audience-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    .fyndox-audience-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .fyndox-audience-image {
+        flex: 0 0 auto;
+        width: 100%;
+        height: 200px;
+        border-radius: 11px;
+    }
+
+    .fyndox-audience-content {
+        width: 100%;
+        flex: 1;
+    }
+
+    .fyndox-audience-content h3 {
+        font-size: 19px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .fyndox-audience-content p {
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 18px;
+    }
+    .fyndox-problem-solution {
+        padding: 55px 0 60px;
+    }
+
+    .fyndox-ps-header {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .fyndox-ps-header h2 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .fyndox-ps-header > p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .fyndox-ps-grid {
+        gap: 18px;
+    }
+
+    .fyndox-ps-card {
+        padding: 22px 18px;
+        border-radius: 15px;
+    }
+
+    .fyndox-ps-card-heading {
+        gap: 10px;
+        margin-bottom: 23px;
+    }
+
+    .fyndox-ps-heading-icon {
+        flex-basis: 30px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .fyndox-ps-card-heading h3 {
+        font-size: 17px;
+    }
+
+    .fyndox-ps-list {
+        gap: 22px;
+    }
+
+    .fyndox-ps-item {
+        grid-template-columns: 17px minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .fyndox-ps-item-content h4 {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .fyndox-ps-item-content p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .fyndox-brand-banner {
+        padding: 48px 0;
+    }
+
+    .fyndox-brand-banner__inner {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 25px;
+    }
+
+    .fyndox-brand-banner__heading h2 {
+        font-size: 38px;
+        line-height: 1.12;
+    }
+
+    .fyndox-brand-banner__decoration {
+        display: none;
+    }
+
+    .fyndox-brand-banner__statement {
+        min-height: 68px;
+        padding-left: 20px;
+    }
+
+    .fyndox-brand-banner__statement p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .fyndox-founder {
+        padding: 55px 0;
+    }
+
+    .fyndox-founder__grid {
+        grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+        gap: 28px;
+    }
+
+    .fyndox-founder__visual {
+        padding: 7px;
+        border-radius: 13px;
+    }
+
+    .fyndox-founder__image-wrap {
+        height: 350px;
+    }
+
+    .fyndox-founder__eyebrow {
+        margin-bottom: 12px;
+        font-size: 10px;
+    }
+
+    .fyndox-founder__content h2 {
+        margin-bottom: 17px;
+        font-size: 28px;
+        line-height: 1.3;
+        letter-spacing: -0.4px;
+    }
+
+    .fyndox-founder__identity {
+        margin-bottom: 16px;
+    }
+
+    .fyndox-founder__identity h3 {
+        font-size: 14px;
+    }
+
+    .fyndox-founder__identity p {
+        font-size: 11px;
+    }
+
+    .fyndox-founder__description {
+        margin-bottom: 22px;
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .fyndox-contact {
+        padding: 55px 0;
+    }
+
+    .fyndox-contact__layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 35px;
+    }
+
+    .fyndox-contact__intro h2 {
+        font-size: 42px;
+        line-height: 1.05;
+    }
+
+    .fyndox-contact__description {
+        max-width: 550px;
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+
+    .fyndox-contact__audiences {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px 24px;
+    }
+
+    .fyndox-contact__audience {
+        gap: 12px;
+        font-size: 12px;
+    }
+
+    .fyndox-contact__card {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .fyndox-contact__booking {
+        padding-right: 24px;
+    }
+
+    .fyndox-contact__booking h3,
+    .fyndox-contact__form-column > h3 {
+        font-size: 16px;
+    }
+
+    .fyndox-contact__booking > p {
+        font-size: 12px;
+    }
+
+    .fyndox-contact__field input,
+    .fyndox-contact__field select {
+        height: 42px;
+        font-size: 12px;
+    }
+    .fyndox-cofounder {
+        padding: 55px 0;
+    }
+
+    .fyndox-cofounder__header {
+        max-width: 620px;
+        margin-bottom: 28px;
+    }
+
+    .fyndox-cofounder__header h2 {
+        font-size: 32px;
+    }
+
+    .fyndox-cofounder__header > p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .fyndox-cofounder__card {
+        gap: 24px;
+        padding: 28px;
+        border-radius: 15px;
+    }
+
+    .fyndox-cofounder__column + .fyndox-cofounder__column {
+        padding-left: 24px;
+    }
+
+    .fyndox-cofounder__column-heading {
+        gap: 9px;
+        margin-bottom: 15px;
+    }
+
+    .fyndox-cofounder__column-heading h3 {
+        font-size: 13px;
+    }
+
+    .fyndox-cofounder__list {
+        gap: 10px;
+    }
+
+    .fyndox-cofounder__list li {
+        padding-left: 17px;
+        font-size: 11px;
+        line-height: 1.65;
+    }
+    .fyndox-footer .container {
+        padding: 0 24px;
+    }
+
+    .fyndox-footer__top {
+        grid-template-columns: 1fr auto;
+        gap: 24px;
+        min-height: auto;
+        padding: 32px 0;
+    }
+
+    .fyndox-footer__brand {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .fyndox-footer__languages {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+    }
+
+    .fyndox-footer__nav {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        justify-content: flex-start;
+        gap: 15px 24px;
+        padding-top: 4px;
+    }
+
+    .fyndox-footer__nav a {
+        font-size: 12px;
+    }
+
+    .fyndox-footer__bottom {
+        min-height: 78px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-sec {
+        padding: 12px 0;
+    }
+
+    .navbar-sec .grid.grid-col3 {
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 12px;
+    }
+
+    .navbar-sec .logo img {
+        width: 115px;
+    }
+
+    .navbar-sec .header-actions {
+        gap: 12px;
+    }
+
+    .navbar-sec .book-btn {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .navbar-sec .menu-toggle {
+        padding: 5px;
+    }
+
+    .navbar-sec .nav-menu {
+        width: min(360px, 88vw);
+        padding: 90px 24px 30px;
+    }
+
+    .healthcare-banner {
+        padding: 48px 0 65px;
+    }
+
+    .healthcare-banner .grid-col2 {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 55px;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: clamp(36px, 7vw, 48px);
+        line-height: 1.1;
+        letter-spacing: -1.2px;
+        padding-bottom: 18px;
+    }
+
+    .banner-content p {
+        max-width: 520px;
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 22px;
+    }
+
+    .features {
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+
+    .feature-item {
+        font-size: 11px;
+        padding: 7px 11px;
+        line-height: 16px;
+    }
+
+    .banner-buttons {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        min-height: 44px;
+        justify-content: center;
+        padding: 12px 20px;
+        font-size: 13px;
+    }
+
+    .banner-visual {
+        width: 100%;
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    .image-card {
+        padding: 16px;
+        border-radius: 22px;
+    }
+
+    .image-card img {
+        width: 100%;
+        height: clamp(240px, 60vw, 350px);
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .translation-badge {
+        top: -15px;
+        right: 15px;
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+
+    .video-controls {
+        bottom: 24px;
+        gap: 14px;
+        padding: 9px 14px;
+    }
+
+    .language-box {
+        right: -8px;
+        bottom: -22px;
+        padding: 10px 12px;
+        min-width: 105px;
+    }
+
+    .language-item {
+        gap: 8px;
+        font-size: 11px;
+        padding: 4px 2px;
+    }
+
+    .fyndox-about-section {
+        padding: 45px 0;
+    }
+
+    .fyndox-about-section .fyndox-about-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 32px;
+    }
+
+    .fyndox-about-content {
+        width: 100%;
+    }
+
+    .fyndox-about-label {
+        margin-bottom: 15px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .fyndox-about-content h2 {
+        margin-bottom: 18px;
+        font-size: clamp(30px, 6vw, 38px);
+        line-height: 1.2;
+        letter-spacing: -0.7px;
+    }
+
+    .fyndox-about-content p {
+        max-width: 560px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .fyndox-reality {
+        padding: 0;
+        border-left: 0;
+    }
+
+    .fyndox-reality h3 {
+        margin-bottom: 20px;
+    }
+
+    .fyndox-reality-item {
+        grid-template-columns: 34px minmax(0, 1fr);
+        
+        margin-bottom: 18px;
+    }
+
+    .fyndox-icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .fyndox-reality-item p {
+        margin-top: 2px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .fyndox-answer {
+        grid-column: auto;
+        padding: 25px 22px;
+        gap: 20px;
+        border-radius: 15px;
+    }
+
+    .fyndox-answer h3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .fyndox-answer-item {
+        grid-template-columns: 36px minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .fyndox-answer-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .fyndox-answer-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .fyndox-answer-item p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .fyndox-audience-section {
+        padding: 45px 0 50px;
+    }
+
+    .fyndox-audience-header {
+        margin-bottom: 25px;
+    }
+
+    .fyndox-audience-header h2 {
+        max-width: 500px;
+        font-size: clamp(27px, 5.5vw, 32px);
+        line-height: 1.3;
+        letter-spacing: -0.4px;
+    }
+
+    .fyndox-audience-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .fyndox-audience-card {
+        flex-direction: row;
+        align-items: center;
+        gap: 18px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .fyndox-audience-image {
+        flex: 0 0 120px;
+        width: 120px;
+        height: 135px;
+        border-radius: 11px;
+    }
+
+    .fyndox-audience-content {
+        align-self: stretch;
+        justify-content: center;
+    }
+
+    .fyndox-audience-content h3 {
+        font-size: 18px;
+        line-height: 1.35;
+        margin-bottom: 9px;
+    }
+
+    .fyndox-audience-content p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+
+    .fyndox-audience-arrow {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+    }
+    .fyndox-problem-solution {
+        padding: 45px 0 50px;
+    }
+
+    .fyndox-ps-header {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 13px;
+        margin-bottom: 27px;
+    }
+
+    .fyndox-ps-header h2 {
+        font-size: clamp(28px, 5.5vw, 34px);
+        line-height: 1.25;
+        letter-spacing: -0.4px;
+    }
+
+    .fyndox-ps-header > p {
+        max-width: 520px;
+        justify-self: start;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .fyndox-ps-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .fyndox-ps-card {
+        padding: 26px 24px;
+        border-radius: 15px;
+    }
+
+    .fyndox-ps-card-heading {
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+
+    .fyndox-ps-heading-icon {
+        flex-basis: 32px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .fyndox-ps-card-heading h3 {
+        font-size: 18px;
+    }
+
+    .fyndox-ps-list {
+        gap: 23px;
+    }
+
+    .fyndox-ps-item {
+        grid-template-columns: 18px minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .fyndox-ps-item-icon {
+        width: 18px;
+        height: 20px;
+    }
+
+    .fyndox-ps-item-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .fyndox-ps-item-content h4 {
+        font-size: 14px;
+        line-height: 1.45;
+        margin-bottom: 4px;
+    }
+
+    .fyndox-ps-item-content p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .fyndox-brand-banner {
+        padding: 40px 0;
+    }
+
+    .fyndox-brand-banner__inner {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+    }
+
+    .fyndox-brand-banner__heading h2 {
+        font-size: clamp(30px, 6vw, 38px);
+        line-height: 1.15;
+        letter-spacing: -0.8px;
+    }
+
+    .fyndox-brand-banner__heading h2 span {
+        margin-top: 2px;
+    }
+
+    .fyndox-brand-banner__decoration {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        margin-top: -10px;
+    }
+
+    .fyndox-brand-banner__oval {
+        flex-basis: 65px;
+        width: 65px;
+        height: 16px;
+    }
+
+    .fyndox-brand-banner__line {
+        flex-basis: 45px;
+        width: 45px;
+    }
+
+    .fyndox-brand-banner__statement {
+        min-height: auto;
+        padding: 0 0 0 16px;
+        border-left: 2px solid #34485a;
+    }
+
+    .fyndox-brand-banner__statement p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .fyndox-founder {
+        padding: 45px 0;
+    }
+
+    .fyndox-founder__grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 32px;
+    }
+
+    .fyndox-founder__visual {
+        width: 100%;
+        max-width: 460px;
+        justify-self: center;
+        padding: 8px;
+        border-radius: 14px;
+    }
+
+    .fyndox-founder__image-wrap {
+        width: 100%;
+        max-width: 345px;
+        height: clamp(320px, 95vw, 440px);
+    }
+
+    .fyndox-founder__content {
+        width: 100%;
+    }
+
+    .fyndox-founder__eyebrow {
+        margin-bottom: 13px;
+        font-size: 10px;
+    }
+
+    .fyndox-founder__content h2 {
+        margin-bottom: 18px;
+        font-size: clamp(28px, 5.5vw, 34px);
+        line-height: 1.25;
+    }
+
+    .fyndox-founder__identity {
+        margin-bottom: 17px;
+    }
+
+    .fyndox-founder__identity h3 {
+        font-size: 15px;
+    }
+
+    .fyndox-founder__identity p {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .fyndox-founder__description {
+        max-width: none;
+        margin-bottom: 24px;
+        font-size: 13px;
+        line-height: 1.75;
+    }
+
+    .fyndox-founder__linkedin {
+        min-height: 42px;
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+    .fyndox-contact {
+        padding: 45px 0;
+    }
+
+    .fyndox-contact__layout {
+        gap: 30px;
+    }
+
+    .fyndox-contact__eyebrow {
+        margin-bottom: 16px;
+        font-size: 10px;
+    }
+
+    .fyndox-contact__intro h2 {
+        margin-bottom: 18px;
+        font-size: clamp(36px, 7vw, 44px);
+        line-height: 1.05;
+        letter-spacing: -1px;
+    }
+
+    .fyndox-contact__description {
+        margin-bottom: 25px;
+        font-size: 13px;
+        line-height: 1.75;
+    }
+
+    .fyndox-contact__audiences {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+    }
+
+    .fyndox-contact__audience {
+        gap: 14px;
+        font-size: 12px;
+    }
+
+    .fyndox-contact__card {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 26px;
+        padding: 24px;
+        border-radius: 20px;
+    }
+
+    .fyndox-contact__booking {
+        padding: 0 0 25px;
+        border-right: 0;
+        border-bottom: 1px solid #edf1f3;
+    }
+
+    .fyndox-contact__icon {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 14px;
+    }
+
+    .fyndox-contact__booking h3,
+    .fyndox-contact__form-column > h3 {
+        font-size: 16px;
+    }
+
+    .fyndox-contact__booking > p {
+        max-width: 350px;
+        margin: 10px 0 20px;
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .fyndox-contact__booking .fyndox-contact__button {
+        margin-top: 0;
+    }
+
+    .fyndox-contact__form-column > h3 {
+        margin-bottom: 16px;
+    }
+
+    .fyndox-contact__form {
+        gap: 12px;
+    }
+
+    .fyndox-contact__field input,
+    .fyndox-contact__field select {
+        height: 44px;
+        padding: 0 14px;
+        border-radius: 12px;
+        font-size: 12px;
+    }
+
+    .fyndox-contact__button {
+        min-height: 44px;
+        font-size: 12px;
+    }
+
+    .fyndox-contact__response {
+        margin-top: 14px;
+        font-size: 10px;
+    }
+
+    .fyndox-cofounder {
+        padding: 45px 0;
+    }
+
+    .fyndox-cofounder__header {
+        margin-bottom: 25px;
+    }
+
+    .fyndox-cofounder__eyebrow {
+        margin-bottom: 12px;
+        font-size: 10px;
+    }
+
+    .fyndox-cofounder__header h2 {
+        margin-bottom: 14px;
+        font-size: clamp(28px, 5.5vw, 34px);
+        line-height: 1.25;
+        letter-spacing: -0.4px;
+    }
+
+    .fyndox-cofounder__header > p {
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+    .fyndox-cofounder__card {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 25px;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    .fyndox-cofounder__column + .fyndox-cofounder__column {
+        padding: 23px 0 0;
+        border-left: 0;
+        border-top: 1px solid #e1e9ed;
+    }
+
+    .fyndox-cofounder__column-heading {
+        margin-bottom: 16px;
+    }
+
+    .fyndox-cofounder__column-heading h3 {
+        font-size: 14px;
+    }
+
+    .fyndox-cofounder__list {
+        gap: 11px;
+    }
+
+    .fyndox-cofounder__list li {
+        padding-left: 20px;
+        font-size: 12px;
+        line-height: 1.65;
+    }
+    .fyndox-footer .container {
+        padding: 0 20px;
+    }
+
+    .fyndox-footer__top {
+        gap: 25px 16px;
+        padding: 30px 0;
+    }
+
+    .fyndox-footer__logo {
+        font-size: 23px;
+    }
+
+    .fyndox-footer__brand p {
+        font-size: 11px;
+    }
+
+    .fyndox-footer__nav {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px 20px;
+        padding-top: 0;
+    }
+
+    .fyndox-footer__nav a {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .fyndox-footer__bottom {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        min-height: auto;
+        padding: 22px 0;
+    }
+
+    .fyndox-footer__copyright {
+        font-size: 11px;
+    }
+
+    .fyndox-footer__legal {
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .fyndox-footer__legal a {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .navbar-sec .logo img {
+        width: 105px;
+    }
+
+    .navbar-sec .header-actions {
+        gap: 10px;
+    }
+
+    .navbar-sec .book-btn {
+        padding: 9px 12px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .navbar-sec .menu-toggle span {
+        width: 21px;
+    }
+
+    .navbar-sec .nav-menu {
+        width: min(320px, 88vw);
+        padding: 85px 22px 25px;
+    }
+
+    .healthcare-banner {
+        padding: 40px 0 55px;
+    }
+
+    .healthcare-banner .grid-col2 {
+        gap: 48px;
+    }
+
+    .banner-content h1 {
+        font-size: clamp(33px, 8vw, 42px);
+        line-height: 1.12;
+        letter-spacing: -0.9px;
+        padding-bottom: 16px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+
+    .features {
+        gap: 7px;
+        margin-bottom: 22px;
+    }
+
+    .feature-item {
+        font-size: 10px;
+        line-height: 15px;
+        padding: 6px 9px;
+        gap: 6px;
+    }
+
+    .feature-item img {
+        max-width: 14px;
+    }
+
+    .banner-buttons {
+        gap: 10px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 11px 15px;
+        font-size: 12px;
+        line-height: 18px;
+        gap: 7px;
+    }
+
+    .btn-primary img,
+    .btn-secondary img {
+        max-width: 15px;
+        height: auto;
+    }
+
+    .healthcare-banner .play-icon {
+        padding: 2px 5px;
+    }
+
+    .banner-visual {
+        max-width: 100%;
+    }
+
+    .image-card {
+        padding: 12px;
+        border-radius: 18px;
+    }
+
+    .image-card img {
+        height: clamp(210px, 62vw, 300px);
+        border-radius: 10px;
+    }
+
+    .translation-badge {
+        right: 8px;
+        top: -13px;
+        padding: 7px 9px;
+        font-size: 10px;
+        line-height: 14px;
+        gap: 5px;
+    }
+
+    .status-dot {
+        width: 7px;
+        height: 7px;
+        flex-shrink: 0;
+    }
+
+    .video-controls {
+        bottom: 19px;
+        gap: 10px;
+        padding: 7px 11px;
+        font-size: 12px;
+    }
+
+    .mute-icon {
+        padding: 6px;
+    }
+
+    .language-box {
+        right: -5px;
+        bottom: -19px;
+        min-width: 95px;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    .language-item {
+        font-size: 10px;
+        gap: 6px;
+        padding: 3px 1px;
+    }
+
+    .language-item span {
+        font-size: 9px;
+        padding: 3px 4px;
+    }
+    .fyndox-brand-banner__heading h2 span {
+        
+        gap: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .fyndox-about-section {
+        padding: 38px 0;
+    }
+
+    .fyndox-about-section .fyndox-about-grid {
+        gap: 28px;
+    }
+
+    .fyndox-about-label {
+        margin-bottom: 13px;
+    }
+
+    .fyndox-about-content h2 {
+        font-size: 30px;
+        line-height: 1.22;
+        letter-spacing: -0.5px;
+        margin-bottom: 16px;
+    }
+
+    .fyndox-about-content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .fyndox-reality h3 {
+        margin-bottom: 17px;
+    }
+
+    .fyndox-reality-item {
+        grid-template-columns: 32px minmax(0, 1fr);
+        
+        margin-bottom: 16px;
+    }
+
+    .fyndox-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fyndox-reality-item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .fyndox-answer {
+        padding: 22px 18px;
+        gap: 18px;
+    }
+
+    .fyndox-answer h3 {
+        font-size: 16px;
+    }
+
+    .fyndox-answer-item {
+        grid-template-columns: 34px minmax(0, 1fr);
+        gap: 11px;
+    }
+
+    .fyndox-answer-icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .fyndox-answer-item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .fyndox-audience-section {
+        padding: 38px 0 42px;
+    }
+
+    .fyndox-audience-header {
+        margin-bottom: 22px;
+    }
+
+    .fyndox-audience-header h2 {
+        font-size: 27px;
+        line-height: 1.35;
+    }
+
+    .fyndox-audience-grid {
+        gap: 15px;
+    }
+
+    .fyndox-audience-card {
+        gap: 14px;
+        padding: 15px;
+        border-radius: 13px;
+    }
+
+    .fyndox-audience-image {
+        flex-basis: 100px;
+        width: 100px;
+        height: 120px;
+        border-radius: 9px;
+    }
+
+    .fyndox-audience-content h3 {
+        font-size: 16px;
+        line-height: 1.35;
+        margin-bottom: 7px;
+    }
+
+    .fyndox-audience-content p {
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+
+    .fyndox-audience-arrow {
+        width: 32px;
+        height: 32px;
+        flex-basis: 32px;
+    }
+
+    .fyndox-audience-arrow svg {
+        width: 15px;
+        height: 15px;
+    }
+    .fyndox-problem-solution {
+        padding: 38px 0 42px;
+    }
+
+    .fyndox-ps-header {
+        gap: 12px;
+        margin-bottom: 23px;
+    }
+
+    .fyndox-ps-header h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .fyndox-ps-header > p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .fyndox-ps-grid {
+        gap: 16px;
+    }
+
+    .fyndox-ps-card {
+        padding: 22px 18px;
+        border-radius: 13px;
+    }
+
+    .fyndox-ps-card-heading {
+        gap: 10px;
+        margin-bottom: 22px;
+    }
+
+    .fyndox-ps-card-heading h3 {
+        font-size: 17px;
+    }
+
+    .fyndox-ps-list {
+        gap: 21px;
+    }
+
+    .fyndox-ps-item {
+        grid-template-columns: 17px minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .fyndox-ps-item-icon {
+        width: 17px;
+    }
+
+    .fyndox-ps-item-icon svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .fyndox-ps-item-content h4 {
+        font-size: 13px;
+        line-height: 1.45;
+    }
+
+    .fyndox-ps-item-content p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    .fyndox-brand-banner {
+        padding: 34px 0;
+    }
+
+    .fyndox-brand-banner__inner {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 22px;
+    }
+
+    .fyndox-brand-banner__heading h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        letter-spacing: -0.6px;
+    }
+
+    .fyndox-brand-banner__decoration {
+        gap: 16px;
+        margin-top: -8px;
+    }
+
+    .fyndox-brand-banner__oval {
+        flex-basis: 54px;
+        width: 54px;
+        height: 14px;
+    }
+
+    .fyndox-brand-banner__line {
+        flex-basis: 38px;
+        width: 38px;
+    }
+
+    .fyndox-brand-banner__statement {
+        padding-left: 14px;
+    }
+
+    .fyndox-brand-banner__statement p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .fyndox-founder {
+        padding: 35px 0 40px;
+    }
+
+    .fyndox-founder__grid {
+        gap: 26px;
+    }
+
+    .fyndox-founder__visual {
+        padding: 7px;
+        border-radius: 12px;
+    }
+
+    .fyndox-founder__image-wrap {
+        height: clamp(290px, 100vw, 380px);
+    }
+
+    .fyndox-founder__content h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .fyndox-founder__identity h3 {
+        font-size: 14px;
+    }
+
+    .fyndox-founder__identity p {
+        font-size: 11px;
+    }
+
+    .fyndox-founder__description {
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+    .fyndox-founder__linkedin {
+        gap: 8px;
+        padding: 10px 14px;
+        font-size: 11px;
+    }
+    .fyndox-contact {
+        padding: 35px 0;
+    }
+
+    .fyndox-contact__layout {
+        gap: 26px;
+    }
+
+    .fyndox-contact__intro h2 {
+        font-size: 36px;
+        line-height: 1.08;
+        letter-spacing: -0.8px;
+    }
+
+    .fyndox-contact__description {
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+    .fyndox-contact__audiences {
+        gap: 13px;
+    }
+
+    .fyndox-contact__audience {
+        gap: 12px;
+        font-size: 11px;
+    }
+
+    .fyndox-contact__card {
+        gap: 23px;
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    .fyndox-contact__booking {
+        padding-bottom: 22px;
+    }
+
+    .fyndox-contact__booking h3,
+    .fyndox-contact__form-column > h3 {
+        font-size: 15px;
+    }
+
+    .fyndox-contact__booking > p {
+        font-size: 11px;
+    }
+
+    .fyndox-contact__field input,
+    .fyndox-contact__field select {
+        height: 42px;
+        font-size: 11px;
+    }
+
+    .fyndox-contact__button {
+        min-height: 42px;
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+
+    .fyndox-cofounder {
+        padding: 35px 0 40px;
+    }
+
+    .fyndox-cofounder__header {
+        margin-bottom: 23px;
+    }
+
+    .fyndox-cofounder__header h2 {
+        font-size: 29px;
+        line-height: 1.3;
+    }
+
+    .fyndox-cofounder__header > p {
+        font-size: 11px;
+        line-height: 1.8;
+    }
+
+    .fyndox-cofounder__card {
+        gap: 22px;
+        padding: 21px;
+        border-radius: 13px;
+    }
+
+    .fyndox-cofounder__column + .fyndox-cofounder__column {
+        padding-top: 21px;
+    }
+
+    .fyndox-cofounder__column-heading {
+        gap: 9px;
+        margin-bottom: 14px;
+    }
+
+    .fyndox-cofounder__column-heading svg {
+        flex-basis: 17px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .fyndox-cofounder__column-heading h3 {
+        font-size: 13px;
+    }
+
+    .fyndox-cofounder__list {
+        gap: 10px;
+    }
+
+    .fyndox-cofounder__list li {
+        padding-left: 18px;
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .fyndox-footer .container {
+        padding: 0 18px;
+    }
+
+    .fyndox-footer__top {
+        gap: 23px 10px;
+        padding: 27px 0;
+    }
+
+    .fyndox-footer__logo {
+        font-size: 21px;
+    }
+
+    .fyndox-footer__logo span {
+        width: 7px;
+        height: 7px;
+    }
+
+    .fyndox-footer__brand p {
+        max-width: 175px;
+        font-size: 10px;
+    }
+
+    .fyndox-footer__languages {
+        gap: 1px;
+        padding: 3px;
+    }
+
+    .fyndox-footer__languages a {
+        min-width: 29px;
+        min-height: 25px;
+        padding: 5px 6px;
+        font-size: 10px;
+    }
+
+    .fyndox-footer__nav {
+        gap: 14px 12px;
+    }
+
+    .fyndox-footer__nav a {
+        font-size: 11px;
+    }
+
+    .fyndox-footer__bottom {
+        gap: 14px;
+        padding: 20px 0;
+    }
+
+    .fyndox-footer__copyright {
+        font-size: 10px;
+    }
+
+    .fyndox-footer__legal {
+        gap: 22px;
+    }
+
+    .fyndox-footer__legal a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar-sec .grid.grid-col3 {
+        gap: 8px;
+    }
+
+    .navbar-sec .logo img {
+        width: 95px;
+    }
+
+    .navbar-sec .header-actions {
+        gap: 8px;
+    }
+
+    .navbar-sec .book-btn {
+        padding: 9px 10px;
+        font-size: 10px;
+    }
+
+    .navbar-sec .menu-toggle span {
+        width: 19px;
+        margin: 4px 0;
+    }
+
+    .healthcare-banner {
+        padding: 35px 0 48px;
+    }
+
+    .healthcare-banner .grid-col2 {
+        gap: 42px;
+    }
+
+    .banner-content h1 {
+        font-size: 33px;
+        line-height: 1.12;
+        letter-spacing: -0.8px;
+    }
+
+    .banner-content p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .features {
+        gap: 6px;
+    }
+
+    .feature-item {
+        font-size: 9px;
+        padding: 6px 8px;
+        gap: 5px;
+    }
+
+    .feature-item img {
+        max-width: 13px;
+    }
+
+    .banner-buttons {
+        gap: 8px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 12px;
+        font-size: 11px;
+        gap: 6px;
+    }
+
+    .image-card {
+        padding: 10px;
+    }
+
+    .image-card img {
+        height: 220px;
+    }
+
+    .translation-badge {
+        right: 5px;
+        font-size: 9px;
+        padding: 6px 8px;
+    }
+
+    .video-controls {
+        bottom: 16px;
+        gap: 9px;
+        padding: 7px 10px;
+    }
+
+    .language-box {
+        right: -3px;
+        bottom: -18px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .fyndox-about-section {
+        padding: 32px 0;
+    }
+
+    .fyndox-about-section .fyndox-about-grid {
+        gap: 25px;
+    }
+
+    .fyndox-about-content h2 {
+        font-size: 27px;
+        line-height: 1.22;
+    }
+
+    .fyndox-about-content p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .fyndox-reality-item {
+        grid-template-columns: 30px minmax(0, 1fr);
+        
+    }
+
+    .fyndox-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fyndox-reality-item p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .fyndox-answer {
+        padding: 20px 15px;
+        gap: 17px;
+    }
+
+    .fyndox-answer-item {
+        grid-template-columns: 32px minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .fyndox-answer-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fyndox-answer-item p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    .fyndox-audience-header h2 {
+        font-size: 25px;
+    }
+
+    .fyndox-audience-card {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .fyndox-audience-image {
+        flex-basis: 85px;
+        width: 85px;
+        height: 110px;
+    }
+
+    .fyndox-audience-content h3 {
+        font-size: 15px;
+    }
+
+    .fyndox-audience-content p {
+        font-size: 10px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+
+    .fyndox-audience-arrow {
+        width: 30px;
+        height: 30px;
+        flex-basis: 30px;
+    }
+    .fyndox-ps-header h2 {
+        font-size: 25px;
+    }
+
+    .fyndox-ps-card {
+        padding: 19px 14px;
+    }
+
+    .fyndox-ps-card-heading {
+        margin-bottom: 20px;
+    }
+
+    .fyndox-ps-card-heading h3 {
+        font-size: 16px;
+    }
+
+    .fyndox-ps-list {
+        gap: 20px;
+    }
+
+    .fyndox-ps-item {
+        gap: 9px;
+    }
+
+    .fyndox-ps-item-content h4 {
+        font-size: 12px;
+    }
+
+    .fyndox-ps-item-content p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .fyndox-brand-banner {
+        padding: 30px 0;
+    }
+
+    .fyndox-brand-banner__heading h2 {
+        font-size: 27px;
+        letter-spacing: -0.5px;
+    }
+
+    .fyndox-brand-banner__inner {
+        gap: 20px;
+    }
+
+    .fyndox-brand-banner__statement p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .fyndox-founder {
+        padding: 30px 0 35px;
+    }
+
+    .fyndox-founder__grid {
+        gap: 23px;
+    }
+
+    .fyndox-founder__image-wrap {
+        height: 290px;
+    }
+
+    .fyndox-founder__content h2 {
+        font-size: 25px;
+        letter-spacing: -0.3px;
+    }
+
+    .fyndox-founder__description {
+        font-size: 11px;
+        line-height: 1.75;
+    }
+    .fyndox-contact {
+        padding: 30px 0;
+    }
+
+    .fyndox-contact__intro h2 {
+        font-size: 32px;
+    }
+
+    .fyndox-contact__card {
+        padding: 16px;
+        gap: 21px;
+    }
+
+    .fyndox-contact__audience {
+        font-size: 10px;
+    }
+
+    .fyndox-contact__booking h3,
+    .fyndox-contact__form-column > h3 {
+        font-size: 14px;
+    }
+
+    .fyndox-contact__field input,
+    .fyndox-contact__field select {
+        padding: 0 11px;
+    }
+    .fyndox-cofounder {
+        padding: 30px 0;
+    }
+
+    .fyndox-cofounder__header h2 {
+        font-size: 26px;
+    }
+
+    .fyndox-cofounder__card {
+        gap: 20px;
+        padding: 17px;
+    }
+
+    .fyndox-cofounder__column + .fyndox-cofounder__column {
+        padding-top: 19px;
+    }
+
+    .fyndox-cofounder__column-heading h3 {
+        font-size: 12px;
+    }
+
+    .fyndox-cofounder__list li {
+        font-size: 10px;
+    }
+    .fyndox-footer .container {
+        padding: 0 14px;
+    }
+
+    .fyndox-footer__top {
+        gap: 22px 6px;
+    }
+
+    .fyndox-footer__logo {
+        font-size: 19px;
+    }
+
+    .fyndox-footer__brand p {
+        font-size: 9px;
+    }
+
+    .fyndox-footer__languages a {
+        min-width: 26px;
+        padding: 5px;
+        font-size: 9px;
+    }
+
+    .fyndox-footer__nav {
+        gap: 13px 8px;
+    }
+
+    .fyndox-footer__nav a {
+        font-size: 10px;
+    }
+
+    .fyndox-footer__legal {
+        gap: 18px;
+    }
+}
+
+/* Respect Reduced Motion Preferences */
+
+@media (prefers-reduced-motion: reduce) {
+    .fyndox-about-section *,
+    .fyndox-about-section *::before,
+    .fyndox-about-section *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .navbar-sec .logo img {
+        width: 85px;
+    }
+
+    .navbar-sec .header-actions {
+        gap: 6px;
+    }
+
+    .navbar-sec .book-btn {
+        padding: 8px;
+        font-size: 9px;
+    }
+
+    .navbar-sec .menu-toggle {
+        padding: 3px;
+    }
+
+    .navbar-sec .menu-toggle span {
+        width: 17px;
+    }
+
+    .healthcare-banner {
+        padding: 30px 0 45px;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-content p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .feature-item {
+        font-size: 9px;
+        padding: 5px 7px;
+    }
+
+    .banner-buttons {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: fit-content;
+        max-width: 100%;
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+    .image-card {
+        padding: 8px;
+        border-radius: 15px;
+    }
+
+    .image-card img {
+        height: 195px;
+    }
+
+    .translation-badge {
+        right: 4px;
+        font-size: 8px;
+        padding: 6px;
+        gap: 4px;
+    }
+
+    .video-controls {
+        bottom: 13px;
+        gap: 7px;
+        padding: 6px 9px;
+        font-size: 11px;
+    }
+
+    .language-box {
+        right: -2px;
+        bottom: -16px;
+        min-width: 85px;
+        padding: 6px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .navbar-sec .nav-menu {
+        transition: none;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .fyndox-audience-card,
+    .fyndox-audience-arrow {
+        transition: none;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .fyndox-problem-solution *,
+    .fyndox-problem-solution *::before,
+    .fyndox-problem-solution *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fyndox-founder__linkedin {
+        transition: none;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .fyndox-contact__button,
+    .fyndox-contact__field input,
+    .fyndox-contact__field select {
+        transition: none;
+    }
+}
