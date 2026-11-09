@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="description" content="Welcome to Fyndox.">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  
   <title>Hello, world!</title>
 </head>
 
@@ -39,9 +40,9 @@
           <!-- Right Actions -->
           <div class="header-actions">
             <div class="language-selector">
-              <a href="#">DE</a>
-              <a href="#" class="active">EN</a>
-              <a href="#">AR</a>
+              <a href="#" lang="de" data-language="de">DE</a>
+              <a href="#" lang="en" data-language="en" class="active">EN</a>
+              <a href="#" lang="ar" data-language="ar">AR</a>
             </div>
             <a href="#contact" class="book-btn"> Book a call </a>
             <!-- Mobile Toggle -->
@@ -111,12 +112,10 @@
           <div class="translation-badge">
             <span class="status-dot"></span>
             <span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 56 72" fill="none">
-              <path
-                d="M47.5 3.5L12.8 33.2C11.2 34.6 12.2 37.2 14.2 37.2H28.5L20.5 64.1C19.7 67 23.1 69 25.3 66.9L59.5 34.5C61.2 32.9 60 30.2 57.8 30.2H43.2L52.2 7.1C53.3 4.1 50 1.5 47.5 3.5Z"
-                fill="#0E7C7B"
-                transform="translate(-8 0)"
-              />
-            </svg></span>
+                <path
+                  d="M47.5 3.5L12.8 33.2C11.2 34.6 12.2 37.2 14.2 37.2H28.5L20.5 64.1C19.7 67 23.1 69 25.3 66.9L59.5 34.5C61.2 32.9 60 30.2 57.8 30.2H43.2L52.2 7.1C53.3 4.1 50 1.5 47.5 3.5Z"
+                  fill="#0E7C7B" transform="translate(-8 0)" />
+              </svg></span>
             Translation in real time
           </div>
 
@@ -946,9 +945,9 @@
 
         <!-- Language Selector -->
         <div class="fyndox-footer__languages" aria-label="Select language">
-          <a href="#" lang="de">DE</a>
-          <a href="#" class="active" lang="en" aria-current="true">EN</a>
-          <a href="#" lang="ar">AR</a>
+          <a href="#" lang="de" data-language="de">DE</a>
+          <a href="#" lang="en" data-language="en" class="active" aria-current="true">EN</a>
+          <a href="#" lang="ar" data-language="ar">AR</a>
         </div>
 
       </div>
@@ -975,6 +974,7 @@
 
 
   <script src="js/script.js"></script>
+  <script src="js/language.js"></script>
 </body>
 
 </html>
