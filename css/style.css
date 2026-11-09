@@ -1843,3 +1843,8 @@ a {
     color: #92a2b5;
     font-size: 11px;
 }
+
+html[lang="ar"] .banner-content h1 {
+    text-align: right !important;
+    direction: rtl;
+}
